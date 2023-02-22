@@ -1,24 +1,31 @@
 .Logo{
-    width: 2%;
+    width: 2.2%;
+    margin: 2px 12px 0px 0px;
     float: left;
     padding: 0px 12px 0px;
     
 }
 .Logo1{
-    width: 10%;
+    width: 12%;
     float: left;
-    padding: 8px 5px 0px;
+    padding: 8px 12px 0px 0px;
+}
+.image{
+    margin: 0px;
+    padding: 12px 0px 0px;
+    color: #3a3a3a;
 }
 .Navigation{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
     font-weight: 700;
+    color: #0f224a;
     float: right;
 }
 .Navigation ul li{
     display: inline-block;
     list-style: none;
-    padding: 0 10px 0 10px;
+    padding: 0px 10px 0 6px;
     color: grey;   
 }
 .container{
@@ -70,15 +77,19 @@
 }
 .percent1{
     text-align: center;
-    
+    font-size: 30px;
+    font-weight: 600;
 }
 .percent2{
     text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
 .percent3{
-    text-align: center;
-
-} 
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 600;
+}
 .Logos{
     float: left;
     display: inline-block;
@@ -88,16 +99,26 @@
     float: right;
     display: flex;
     position: absolute;
+    
     justify-content: right;
     margin-left: 50%;
 }
 .block1{
-    padding: 0 55px;
+    justify-content: flex-start;
+    
+    line-height: 1.25;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    padding: 3px 60px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     width: 80px;
     border-radius: 5%;
     margin: 2%; 
     height: 150px;
     margin-right: 5%;
+    
     justify-content: right;
     background-color: rgb(224, 234, 252);
 }
@@ -112,6 +133,8 @@
     height: 150px;
     margin-right: 5%;
     background-color: rgb(183, 235, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 .block3{
     text-align: center;
@@ -125,12 +148,15 @@
     float: right;
     margin-right: 25%;
     background-color: rgb(243, 206, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 .Button1{
     background-color: rgb(2, 7, 139);
     padding: 1% 2% 1%;
     color: white;
 }
+
 .Container1{
     display: inline-block;
     float: left;
@@ -139,31 +165,46 @@
    
 
 }
+.cont{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding: 0px 0px 48px;
+    color: #0f224a;
+    position: relative;
+}
 .Last{
     float: left;
+    display: flex;
+    margin-top: -10em;
+    position: absolute;
+    
+
 }
 .line1{
-    
-    width: 14%;
+    border: 2px solid blue;
+    width: 185%;
 }
 .text-a{
-    float: right;
-    padding: 2px 470px 3px;
+    width: 80%;
+    text-align: left;
+    justify-content: 
+    height: 0;
+    margin-left: 110%;
+    padding: 0px 25px 0 58px;
 }
 .line2{
-    width: 13%;
-    display: ;
+    width: 145%;
+    border: 2px solid red;
 }
 .text-b{
-    float: right;
-    padding: 2px 470px 3px;
+    padding: 0px 60px 0;
 }
 .line3{
-    width: 14%;
+    border: 2px solid greenyellow;
+    width: 145%;
 }
 .text-c{
-    float: right;
-    padding: 2px 470px 3px;
+    padding: 0 20px 0;
 }
 
 
