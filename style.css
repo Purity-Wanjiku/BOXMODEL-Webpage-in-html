@@ -40,13 +40,11 @@ html, body{
     padding: 5px 60px 0px;
 }
 .body{
-    border: 1px solid;
+    border: solid;
     border-width: 70px;
     border-color: blue;
     border-radius: 1%;
     border-bottom: none;
-    /* height: 100%; */
-    /* width: 90%; */
 }
 .Title{
     text-align: center;
@@ -63,6 +61,7 @@ html, body{
     background-color: rgb(2, 7, 139);
     padding: 1% 2% 1%;
     color: white;
+    border-radius: 5%;
 }
 .Mainimage{
     width: 100%;
@@ -160,6 +159,7 @@ html, body{
     background-color: rgb(131, 134, 241);
     padding: 1% 2% 1%;
     color: white;
+    border-radius: 5%;
     font-size: 15px;
 }
 h6{
